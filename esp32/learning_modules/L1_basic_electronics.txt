@@ -34,16 +34,49 @@ a. VOLTAGE
             A 3V battery lights an LED because the LED "drops" ~2V (the rest is lost as heat)
 
                 Why not use exact 2V Battery to light up a 2V LED?
-                    Problem 1: No "headroom" for resistance. If the battery is exactly 2V, and the LED drops 2V, 
-                    there’s no voltage left for a current-limiting resistor.
-                    Result: The LED may not light up or will behave unpredictably.
+                    Problem 1:      No "headroom" for resistance. If the battery is exactly 2V, and the LED drops 2V, 
+                                    there’s no voltage left for a current-limiting resistor.
 
-                    Problem 2: As the battery drains, its voltage drops below 2V, and the LED stops working entirely.
+                    Result:         The LED may not light up or will behave unpredictably.
 
-                    Problem 3: Inefficient power transfer. A 3V battery + resistor delivers stable current 
-                    even as the battery drains from 3.3V → 2.7V. A 2V battery would cut out abruptly when it dips below the LED’s forward voltage (V_f).
+                    Problem 2:      As the battery drains, its voltage drops below 2V, and the LED stops working entirely.
+
+                    Problem 3:      Inefficient power transfer. A 3V battery + resistor delivers stable current 
+                                    even as the battery drains from 3.3V → 2.7V. A 2V battery would cut out abruptly 
+                                    when it dips below the LED’s forward voltage (V_f).
     
+    Measuring Voltage:
+        Tool:       Multimeter      Mode: Voltmeter
+        Method:
+            1. Set multimeter to DC or AC
+            2. Connection:      Red probe        -> positive
+                                Black probe      -> negative
+            3. Read display
     
+    Common Voltage Levels:
+        Voltage         Typical Use Case 
+        1.2V            NiMH rechargeable batteries.
+        3.3V            ESP32, Raspberry Pi Pico GPIO.
+        5V              Arduino, USB power.
+        12V             Car batteries, PC fans.
+        24V             Industrial sensors, 3D printers.
+        120V/230V       Household AC power.
+    
+    Voltage in Microcontrollers (ESP32, Arduino)
+        ESP32:
+            Operating Voltage:      3.3V (GPIO pins).
+            Input Voltage:          5V (via USB) or 3.7V–12V (via VIN pin).
+
+        Arduino Uno:
+            Operating Voltage:      5V (GPIO pins).
+            Input Voltage:          7V–12V (recommended).
+
+        Warning: Exceeding voltage limits can fry components. Always check datasheets.
+
+    Safety Tips
+        * DC Voltage ≤ 48V is generally safe for beginners.
+        * AC Voltage (120V/230V) can be lethal—use caution!
+        * Capacitors can store voltage even when off—discharge them safely.
 
 b. CURRENT 
 
