@@ -25,6 +25,25 @@ a. VOLTAGE
             Ex:
                 Household Outlets (110V AC or 220V AC)
                 Power Grids
+    
+    How Voltage Works in Circuits:
+        1. Voltage Source:      Battery                                         -> Creates a potential difference
+        2. Electrons flow:      from negative(-) to positive(+) terminals       
+        3. Components:          LED                                             -> Consume voltage to operate
+        Ex:
+            A 3V battery lights an LED because the LED "drops" ~2V (the rest is lost as heat)
+
+                Why not use exact 2V Battery to light up a 2V LED?
+                    Problem 1: No "headroom" for resistance. If the battery is exactly 2V, and the LED drops 2V, 
+                    there’s no voltage left for a current-limiting resistor.
+                    Result: The LED may not light up or will behave unpredictably.
+
+                    Problem 2: As the battery drains, its voltage drops below 2V, and the LED stops working entirely.
+
+                    Problem 3: Inefficient power transfer. A 3V battery + resistor delivers stable current 
+                    even as the battery drains from 3.3V → 2.7V. A 2V battery would cut out abruptly when it dips below the LED’s forward voltage (V_f).
+    
+    
 
 b. CURRENT 
 
