@@ -3,7 +3,28 @@ Lesson 1: Basic Electronics Knowledge
 
 - What voltage, current, and resistance mean
 a. VOLTAGE 
+    Symbol: V   Unit: volts 
+    
+    Electrical pressure that pushes electric current through a circle.
+    The potential energy difference between two points in a circuit
+    
+    Analogy: Water pressure in a pipe.
 
+    Formula (Ohm's Law): Voltage = Current × Resistance
+
+    Types of Voltage:
+        a. Direct Current (DC) Voltage
+            Constant polarity (+ -) -> Stay fixed.
+            Ex:
+                Batteries:      AA, Li-ion, 18650
+                USB power:      5V DC
+                Solar Panels    with charge controllers
+
+        b. Alternating Current (AC) Voltage
+            Polarity reverses periodically (50Hz or 60H) 
+            Ex:
+                Household Outlets (110V AC or 220V AC)
+                Power Grids
 
 b. CURRENT 
 
