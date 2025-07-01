@@ -20,7 +20,7 @@ esp32/
 - **L6_micropython_basics.txt**: Getting started with MicroPython
 - **L7_wokwi_simulation.txt**: Simulating ESP32 projects with Wokwi
 
-## ESP32 Example Projects (`esp32/projects/`)
+## ESP32 Example Projects (`esp32/sample_projects/`)
 
 - **P1_Blink_an_LED.py**: Blink an LED
 - **P2_Read_a_Button.py**: Read a button input
