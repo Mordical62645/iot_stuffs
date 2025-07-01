@@ -1,12 +1,12 @@
 # IoT Stuffs
 
-A collection of learning resources and example projects for the ESP32 microcontroller, using MicroPython.
+A collection of learning resources and example projects for IoT (Internet of Things) development. While this repository currently focuses on the ESP32 microcontroller using MicroPython, it may expand to include other platforms in the future.
 
 ## Structure
 
 ```
 esp32/
-  docs/         # Step-by-step learning modules and notes
+  docs/         # Step-by-step learning modules and notes for ESP32
   projects/     # Example ESP32 projects in MicroPython
 ```
 
