@@ -1,0 +1,7 @@
+Lesson 7: Wokwi Simulation
+=======================
+
+Required:
+- How Wokwi Works (virtual ESP32, sensors, and circuits)
+- Writing & Simulating MicroPython Code
+- Debugging in Wokwi (serial monitor, virtual logic analyzer) 

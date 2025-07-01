@@ -1,0 +1,9 @@
+Lesson 2: Basic Serial/IDE Usage
+=============================
+
+Know how to:
+- Use serial terminals (like Wokwi's monitor or Thonny)
+- Upload/run code on a board (even virtually at first)
+- Understand basic input/output logs
+
+💡 Wokwi makes this easy — no physical device needed. 

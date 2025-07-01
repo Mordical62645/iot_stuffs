@@ -1,0 +1,7 @@
+Lesson 3: Microcontroller Concepts (Optional)
+==========================================
+
+You'll slowly learn these as you go, but it's helpful to know:
+- What a microcontroller is (like a mini-computer)
+- The idea of flashing firmware
+- What pins do (input, output, analog, PWM) 

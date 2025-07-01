@@ -1,0 +1,11 @@
+Lesson 4: Programming Fundamentals
+===============================
+
+Required:
+- Basic Python (for MicroPython)
+- Basic C/C++ (for ESP-IDF/Arduino)
+- Understanding of Functions, Loops, and Variables
+
+📌 If you're new:
+- Learn Python: Python for Beginners
+- Learn C basics: C Programming for Embedded Systems 

@@ -1,0 +1,22 @@
+Lesson 1: Basic Electronics Knowledge
+==================================
+
+You don't need to be an electrical engineer — just the basics:
+
+- What voltage, current, and resistance mean
+- How a LED, resistor, push button, and sensor works
+- Understanding GPIO (general purpose input/output)
+- How to read simple wiring diagrams (schematics)
+
+💡 If you know how to wire a button to blink an LED, you're set.
+
+Required Topics:
+----------------
+- Voltage, Current, Resistance (Ohm's Law)
+- Digital vs. Analog Signals
+- GPIO Pins (Input/Output, PWM, ADC)
+- Common Components (LEDs, resistors, buttons, sensors)
+
+📌 If you're new:
+- Try a beginner Arduino kit (e.g., Elegoo Uno Starter Kit)
+- Learn from All About Circuits 

@@ -1,0 +1,11 @@
+Lesson 5: ESP32-Specific Knowledge
+===============================
+
+Required:
+- ESP32 Board Variants (ESP32-WROOM, ESP32-C3, etc.)
+- Pinout & Peripherals (Wi-Fi, Bluetooth, ADC, DAC, I2C, SPI)
+- Power Requirements (3.3V logic, USB power vs. battery)
+
+📌 Resources:
+- ESP32 Datasheet
+- ESP32 Pinout Guide 

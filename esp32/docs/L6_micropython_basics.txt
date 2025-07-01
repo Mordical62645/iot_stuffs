@@ -1,0 +1,11 @@
+Lesson 6: MicroPython Basics
+=========================
+
+Required:
+- How MicroPython Differs from Python (limited libraries, hardware control)
+- Flashing MicroPython on ESP32
+- Using machine & network Modules (GPIO, Wi-Fi, etc.)
+
+📌 Get Started:
+- MicroPython Docs
+- Flash MicroPython on ESP32 
